@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9104359187197764954
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7924826159354752856}
+  m_Layer: 0
+  m_Name: Wristwatch Transform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7924826159354752856
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9104359187197764954}
+  m_LocalRotation: {x: 0.09361563, y: -0.69804424, z: 0.7038112, w: -0.09284476}
+  m_LocalPosition: {x: -0.0014, y: -0.0211, z: 0.0001}
+  m_LocalScale: {x: 1.024625, y: 1.024625, z: 1.024625}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6031986411751234566}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 74.84, y: 88.26, z: 268.197}
 --- !u!1001 &6031986411751360280
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -69,3 +100,79 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0d4554567a471ba429b9bfab56c023ed, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 442d5b4503ed83c4897ef44659446587, type: 3}
+--- !u!4 &6031986411751234566 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400158, guid: 442d5b4503ed83c4897ef44659446587,
+    type: 3}
+  m_PrefabInstance: {fileID: 6031986411751360280}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6031986411751456806 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100158, guid: 442d5b4503ed83c4897ef44659446587,
+    type: 3}
+  m_PrefabInstance: {fileID: 6031986411751360280}
+  m_PrefabAsset: {fileID: 0}
+--- !u!135 &3547312639664753525
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6031986411751456806}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1972695416192626042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6031986411751456806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60523e0647cc6ab43acc73cb266a32a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 0}
+  m_InteractionLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_InteractionLayers:
+    m_Bits: 2
+  m_AttachTransform: {fileID: 7924826159354752856}
+  m_KeepSelectedTargetValid: 1
+  m_StartingSelectedInteractable: {fileID: 0}
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ShowInteractableHoverMeshes: 1
+  m_InteractableHoverMeshMaterial: {fileID: 0}
+  m_InteractableCantHoverMeshMaterial: {fileID: 0}
+  m_SocketActive: 1
+  m_InteractableHoverScale: 1
+  m_RecycleDelayTime: 1
